@@ -12,6 +12,6 @@ function alterarStatus(id){
     else {
         imagem.classList.add("dashboard__item__img--rented")
         botão.classList.add("dashboard__item__button--return")
-        botão.textContent = "Devolver"
+        botão.textContent("Devolver")
     }
 }
